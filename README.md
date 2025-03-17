@@ -12,10 +12,10 @@ There are online tools to export playlist info into an excel. From there the row
 
 **Additional notes:** To find a song in the directory, it only checks if the song name contains a partial match in the file name. This can lead to problems for songs that share the same name.
 
-Once all this is in place these are the commands to run the script.
+Now you can start the process of running.
 
-1. you'll need the gcc, g++, and nano (I think) installed
-2. install taglib library. Copy this into the terminal sudo apt-get install libtag1-dev
-3. navigate to where the metamod.cpp is and open the terminal in that directory.
-4. compile the script with the taglib library. Copy this into the terminal g++ -o metamod metamod.cpp -ltag
-5. run the script. ./metamod
+1. You'll need the gcc, g++, and nano (I think) installed
+2. Install taglib library. Copy this into the terminal sudo apt-get install libtag1-dev
+3. Navigate to where the metamod.cpp is and open the terminal in that directory.
+4. Compile the script with the taglib library. Copy this into the terminal g++ -o metamod metamod.cpp -ltag
+5. Run the script. ./metamod
