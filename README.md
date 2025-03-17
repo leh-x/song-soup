@@ -3,9 +3,9 @@ A handy (but slightly inconvenitent) tool for fixing up your totally legally acq
 
 ## running
 **Before you run. You'll need to make sure these things are in place:**
-The songs you want to update are all in the same folder as metamod.cpp. You'll also need the metadata.txt file to be filled with the song info you're looking to update. 
-The metadata.txt contents should be structured like this with each song on a new line:
-Song Name$Song Artist$Album$Year&Genre
+  The songs you want to update are all in the same folder as metamod.cpp. You'll also need the metadata.txt file to be filled with the song info you're looking to update. 
+  The metadata.txt contents should be structured like this with each song on a new line:
+  Song Name$Song Artist$Album$Year&Genre
 
 There are online tools to export playlist info into an excel. From there the rows can be shifted into this order and exported into a .txt file. A text editor like vscode is great for replacing tabs from the exported file with delimeters.
 
